@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mushroomstewmover",
+  "version": "${version}",
+  "name": "Mushroom Stew Mover",
+  "description": "Automatically moves mushroom stew to empty hotbar slots while the actual inventory screen is open.",
+  "authors": ["OpenAI"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.mushroomstewmover.MushroomStewMoverClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.6",
+    "java": ">=21",
+    "fabric-api": ">=0.100.8"
+  }
+}
