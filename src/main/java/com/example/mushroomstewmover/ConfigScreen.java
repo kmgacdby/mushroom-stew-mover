@@ -53,6 +53,9 @@ public class ConfigScreen extends Screen {
         super.render(context, mouseX, mouseY, delta);
 
         int cx = width / 2;
+        context.getMatrices().push();
+        context.getMatrices().translate(0.0F, 0.0F, 100.0F);
+
         context.drawCenteredTextWithShadow(textRenderer, title, cx, height / 2 - 95, 0xFFFFFF);
         context.drawCenteredTextWithShadow(textRenderer,
                 Text.translatable("screen.mushroomstewmover.delay", Config.delayMs),
@@ -60,5 +63,7 @@ public class ConfigScreen extends Screen {
         context.drawCenteredTextWithShadow(textRenderer,
                 Text.translatable("screen.mushroomstewmover.key_hint"),
                 cx, height / 2 + 35, 0xAAAAAA);
+
+        context.getMatrices().pop();
     }
 }
