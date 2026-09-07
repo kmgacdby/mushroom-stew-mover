@@ -50,6 +50,8 @@ public class ConfigScreen extends Screen {
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
         renderBackground(context, mouseX, mouseY, delta);
+        super.render(context, mouseX, mouseY, delta);
+
         int cx = width / 2;
         context.drawCenteredTextWithShadow(textRenderer, title, cx, height / 2 - 95, 0xFFFFFF);
         context.drawCenteredTextWithShadow(textRenderer,
@@ -58,6 +60,5 @@ public class ConfigScreen extends Screen {
         context.drawCenteredTextWithShadow(textRenderer,
                 Text.translatable("screen.mushroomstewmover.key_hint"),
                 cx, height / 2 + 35, 0xAAAAAA);
-        super.render(context, mouseX, mouseY, delta);
     }
 }
