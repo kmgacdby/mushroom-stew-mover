@@ -1,0 +1,14 @@
+{
+  "key.category.mushroomstewmover": "蘑菇煲搬运器",
+  "key.mushroomstewmover.toggle": "切换蘑菇煲自动搬运",
+  "key.mushroomstewmover.settings": "打开蘑菇煲搬运器设置",
+  "screen.mushroomstewmover.title": "蘑菇煲搬运器设置",
+  "screen.mushroomstewmover.enabled": "自动搬运：",
+  "screen.mushroomstewmover.on": "开启",
+  "screen.mushroomstewmover.off": "关闭",
+  "screen.mushroomstewmover.delay": "搬运间隔：%d 毫秒",
+  "screen.mushroomstewmover.minus": "-",
+  "screen.mushroomstewmover.plus": "+",
+  "screen.mushroomstewmover.key_hint": "切换键可在 设置 → 控制 中修改",
+  "screen.mushroomstewmover.close": "关闭"
+}
