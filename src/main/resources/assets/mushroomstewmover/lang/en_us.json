@@ -1,0 +1,14 @@
+{
+  "key.category.mushroomstewmover": "Mushroom Stew Mover",
+  "key.mushroomstewmover.toggle": "Toggle Mushroom Stew Mover",
+  "key.mushroomstewmover.settings": "Open Mushroom Stew Mover Settings",
+  "screen.mushroomstewmover.title": "Mushroom Stew Mover",
+  "screen.mushroomstewmover.enabled": "Auto move: ",
+  "screen.mushroomstewmover.on": "ON",
+  "screen.mushroomstewmover.off": "OFF",
+  "screen.mushroomstewmover.delay": "Move interval: %d ms",
+  "screen.mushroomstewmover.minus": "-",
+  "screen.mushroomstewmover.plus": "+",
+  "screen.mushroomstewmover.key_hint": "The toggle key can be changed in Options → Controls",
+  "screen.mushroomstewmover.close": "Close"
+}
